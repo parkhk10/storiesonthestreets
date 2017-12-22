@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Read Stories</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+</head>
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logoclear.png" id="logo" />
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="readstories.html">Read Stories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="addstories.html">Add Stories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="waystohelp.html">Ways to Help</a>
+        </li>
+      </ul>
+      <a href="donate.html" class="btn btn-primary btn-lg my-2 my-sm-0" role="button">Donate</a>
+    </div>
+  </nav>
+</header>
+
+<body>
+  <div class="container-fluid" id="page-heading">
+    <h2>Read Stories</h2>
+  </div>
+
+
+  <div class="container-fluid" id="read-stories-section">
+
+    <div class="search-bar">
+      <div class="form-group row">
+        <label for="keywords1" class="col-sm-1 col-form-label">Keywords</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="keywords1" placeholder="Enter keywords here...">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="loc1" class="col-sm-1 col-form-label">Location</label>
+        <div class="col-sm-3">
+          <input type="text" class="form-control" id="loc1" placeholder="Search by ZIP code, city, state">
+        </div>
+      </div>
+      <a href="#" id="searchsubmit" class="btn btn-primary my-2 my-sm-0" onclick="filter();" role="button">Search</a>
+    </div>
+   
+    
+    
+    <!-- the inner html of this div is updated by javascript-->
+    <div id="filtered-by"> 
+      
+    </div>
+  </div>
+
+
+    <div id="read-stories-stories" class="container-fluid">
+      <div class="row">
+        <div class="col-sm">
+          <div class="profile-short">
+            <a href="profile.html">
+              <img src="images/image1.jpg" alt="person1" class="img-person">
+            </a>
+            <div class="story-short">“I was raped at the age of 12 with a 303 under my chin. I could go to court and report the guy, but he asked for forgiveness the next day. After that I slept with men, I slept with women, I prostituted myself, it got serious. It fucked me up for life, I swear. At 27 I became schizophrenic; instead of helping me, my family wanted to send me to foster care. In order not to go, I married a woman I didn't love and stayed with her for 20 years. On Christmas eve I found her in my bed with her best friend, doing coke. I took my stuff and got the hell out. I ended up in the street for 3 years. But I'm doing better, and I'm proud I managed to make it through, I'm proud of myself.”</div>
+            <a href="profile.html">Read More</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="profile-short">
+            <a href="profile2.html">
+              <img src="images/image2.jpg" alt="person2" class="img-person">
+            </a>
+            <div class="story-short">"I’ve had children with a woman from the far north. She was too kaput, too drunk. At some point I couldn’t take it anymore, she dumped me there. I ended up alone, no job – I used to be a contractor. She dumped be, and I found myself with my boy who was three, my daughter two, and a small baby. I toughed it out for three months, on my own. I couldn’t make it anymore, I was out of strength. It was too much work for one man alone, it was too hard for me, I did not have a choice, I called Youth Protection and had them adopted. And that broke my heart. I’ve been drinking ever since."</div>
+            <a href="profile2.html">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="profile-short">
+            <a href="profile3.html">
+              <img src="images/image3.jpg" alt="person3" class="img-person">
+            </a>
+            <div class="story-short">“When you end up in the street, with the cold, the lack of sleep, heroin is the first drug you risk falling into. In the winter when it’s really cold, it allows you to sleep without feeling the cold, the pain. And life on the street is really tough so in the first six months people usually fall into that addiction. For me it was really during my first winter, I had never lived on the street and the first winter was insane. The cold, the injuries, the frost bites, the lack of access to the healthcare system, etc. Now I’m on a methadone program, I only did six months of consumption. It’s really my doctor who made it possible for me to get out of this addiction quickly. Otherwise I would’ve probably fallen down a deep hole; being an addict becomes a full-time job.”</div>
+            <a href="profile3.html">Read More</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="profile-short">
+            <a href="profile4.html">
+              <img src="images/image4.jpg" alt="person4" class="img-person">
+            </a>
+            <div class="story-short">"I wanted to give back a little bit of being clean from the drug, so I started doing some volunteer work to help some of the younger heroin addicts. I got to know a couple of the police officers downtown, and what happened is they arrested some heroin dealers. They stopped them in a station wagon car, and when they searched the car they found her [the dog] in a cardboard box, wrapped in a towel. She hadn’t eaten for probably three or four days, she was two months old and she was just skin and bones."</div>
+            <a href="profile4.html">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="profile-short">
+            <a href="profile.html">
+              <img src="images/woman2.jpeg" alt="guy1" class="img-person">
+            </a>
+            <div class="story-short">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere, turpis a commodo luctus, arcu dui iaculis
+              tortor, aliquet consequat orci enim at odio."</div>
+            <a href="profile.html" id="read-more">Read More</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="profile-short">
+            <a href="profile.html">
+              <img src="images/woman3.jpeg" alt="guy1" class="img-person">
+            </a>
+            <div class="story-short">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere, turpis a commodo luctus, arcu dui iaculis
+              tortor, aliquet consequat orci enim at odio."</div>
+            <a href="profile.html">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+
+<footer>
+  Created by Chris Guo, Keren Park, Julie Kim and Lawrence Augh for EECS 330: Human-Computer Interaction.
+</footer>
+
+</html>
